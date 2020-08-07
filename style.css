@@ -1,0 +1,44 @@
+h2{
+	color: #d9598c;
+}
+footer{
+	position: relative;
+	bottom: 0;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	color: #ff8cc5e1;
+}
+/* th{
+	background-color: red;
+	padding: 50px;
+}
+td{
+	background-color: red;
+	padding: 50px;
+} */
+td, a, img{
+	padding: 0px;
+	weight: 100px;
+	height: 100px;
+}
+body{
+	background-color: #E1D4BF;
+}
+tr > * {
+	margin: 50px;
+}
+table{
+	border: 10px;
+	margin: 50px;
+}
+
+
+.logo {
+	width: 250px;
+	height: 250px;
+}
+.td-img{
+	padding: 0px;
+	text-align: center;
+}
