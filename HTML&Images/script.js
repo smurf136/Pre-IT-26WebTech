@@ -12,7 +12,7 @@
     alert("My Promtpay");
   }
   function aboutmeDialog(){
-    alert("I ' Smurf.");
+    alert("Hello It's me");
   }
   function run(){
     payment.addEventListener('click', paymentDialog);
