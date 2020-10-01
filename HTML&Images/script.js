@@ -14,6 +14,9 @@
   function aboutmeDialog(){
     alert("Hello It's me");
   }
+  function mouseover(){
+    document.getElementById("footer1").style.backgroundColor = "#0080FF";
+  }
   function run(){
     payment.addEventListener('click', paymentDialog);
     aboutme.addEventListener('click', aboutmeDialog);
