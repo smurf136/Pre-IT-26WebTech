@@ -17,6 +17,15 @@
   function mouseover(){
     document.getElementById("footer1").style.backgroundColor = "#0080FF";
   }
+  function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+  }
+  
+  function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+  }
   function run(){
     payment.addEventListener('click', paymentDialog);
     aboutme.addEventListener('click', aboutmeDialog);
